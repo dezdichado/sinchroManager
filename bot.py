@@ -1,5 +1,3 @@
-import api
+import actions
 
-
-print(api.send_message("(и не могу накуриться)"))
-
+print(actions.send_poll("Всё ли работает?", ["да", "нет"]))

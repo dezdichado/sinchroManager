@@ -4,14 +4,13 @@ import time
 import config
 
 
-def call_method(name, params):
+def call_method(name, params, token=config.ACCESS_TOKEN):
     '''
     :param name: str
     :param params: dict
     :return: str
     '''
     paramStrings = [key + "=" + urllib.parse.quote(str(params[key])) for key in params]
-    token = config.ACCESS_TOKEN
     basicUrl = "https://api.vk.com/method/"
 
     ctx = ssl.create_default_context()
@@ -28,12 +27,13 @@ def send_message(text, attachments=None):
     params = {
         "peer_id": config.DIFFICHENTO_ID,
         "message": text,
-        "random_id": time.time()
+        "random_id": time.time(),
     }
     if attachments is not None:
         params["attachment"] = ','.join(attachments)
 
     return call_method(method, params)
+
 
 def create_poll(question, answers, is_anonymous=0, is_multiple=1, end_date=-1,
                 background_id=1):
@@ -45,12 +45,13 @@ def create_poll(question, answers, is_anonymous=0, is_multiple=1, end_date=-1,
     method = "polls.create"
     params = {
         "question": question,
-        "add_answers": str(answers),
+        "add_answers": str(answers).replace("'", '"'),
         "is_anonymous": is_anonymous,
         "is_multiple": is_multiple,
-        "background_id": background_id
+        "background_id": background_id,
+        "owner_id": config.GROUP_ID
     }
     if end_date >= 1558003357:
         params["end_date"] = end_date
 
-    return call_method(method, params)
+    return call_method(method, params, token=config.USER_TOKEN)
