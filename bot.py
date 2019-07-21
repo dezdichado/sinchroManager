@@ -1,3 +1,4 @@
 import actions
+import parseVK
 
-print(actions.send_poll("Всё ли работает?", ["да", "нет"]))
+print(parseVK.get_latest_post())

@@ -55,3 +55,18 @@ def create_poll(question, answers, is_anonymous=0, is_multiple=1, end_date=-1,
         params["end_date"] = end_date
 
     return call_method(method, params, token=config.USER_TOKEN)
+
+
+def search_wall(owner_id, query, owners_only=True, count=20, offset = 0,
+                extended=False):
+    method = "wall.search"
+    params = {
+        "owner_id": owner_id,
+        "query": query,
+        "owners_only": int(owners_only),
+        "count": count,
+        "offset": offset,
+        "extended": int(extended),
+    }
+
+    return call_method(method, params, token=config.SERVICE_TOKEN)
