@@ -1,0 +1,9 @@
+import os
+
+ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
+USER_TOKEN = os.environ['USER_TOKEN']
+SERVICE_TOKEN = os.environ['SERVICE_TOKEN']
+DIFFICHENTO_ID = 2000000000 + 1
+GROUP_ID = -184645364
+CHGK_VK_ID = -89780700
+WEEKEND_HASHTAG = "#ЧГК_синхроны_уикэнда"
