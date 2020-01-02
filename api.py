@@ -17,8 +17,8 @@ def call_method(name, params, token=config.ACCESS_TOKEN):
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
 
-    url = basicUrl + name + "?" + "&".join(paramStrings) + "&access_token=" + token + "&v=" + "5.101"
-    response = urllib.request.urlopen(url, context=ctx).read().decode()
+    url = basicUrl + name + "?" + "&".join(paramStrings) + "&access_token=" + token + "&v=" + "5.103"
+    response = urllib.request.urlopen(url, context=ctx, ).read().decode()
     return response
 
 
@@ -35,8 +35,19 @@ def send_message(text, attachments=None):
     return call_method(method, params)
 
 
+def delete_message(message_ids):
+    method = "messages.delete"
+    params = {
+        "message_ids": ','.join(map(str, message_ids)),
+        #"group_id": -config.GROUP_ID,
+        "delete_for_all": 1
+    }
+
+    return call_method(method, params)
+
+
 def create_poll(question, answers, is_anonymous=0, is_multiple=1, end_date=-1,
-                background_id=1):
+                background_id=3):
     '''
     :param question: str
     :param answers: list

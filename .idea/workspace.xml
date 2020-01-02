@@ -2,93 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="281325e9-838a-46ec-bb67-890b00041d7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/parseVK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latestPosted" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeToSend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parseVK.py" beforeDir="false" afterPath="$PROJECT_DIR$/parseVK.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parseVK.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#6#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="88" selection-start-line="2" selection-start-column="88" selection-end-line="2" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="71" column="66" lean-forward="true" selection-start-line="71" selection-start-column="66" selection-end-line="71" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\n</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,46 +35,16 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="e77bcebe-0d37-4ada-9ef9-c361f726d856" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/gitignore" />
-        <option value="$PROJECT_DIR$/actions.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/bot.py" />
-        <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/api.py" />
-        <option value="$PROJECT_DIR$/parseVK.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
-  </component>
+  <component name="ProjectId" id="1TDQ4pLMWjDTLemUOxnCTPNFTPr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sinchroManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinchroManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="/Library/Frameworks/Python.framework/Versions/3.4/bin/python3" />
@@ -148,18 +57,6 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -190,6 +87,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -200,7 +109,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563631247607</updated>
-      <workItem from="1563631253026" duration="16870000" />
+      <workItem from="1563631253026" duration="25430000" />
+      <workItem from="1564705388570" duration="623000" />
+      <workItem from="1566139148423" duration="302000" />
+      <workItem from="1566301440784" duration="2161000" />
+      <workItem from="1566846923211" duration="168000" />
+      <workItem from="1572992000651" duration="9876000" />
+      <workItem from="1573570704837" duration="2325000" />
+      <workItem from="1577868924929" duration="10189000" />
     </task>
     <task id="LOCAL-00001" summary="I don't know what I'm doing">
       <created>1563638763238</created>
@@ -223,124 +139,74 @@
       <option name="project" value="LOCAL" />
       <updated>1563663504563</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added function to retrieve posts with sinchrons schedule from VK">
+      <created>1563702434260</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563702434260</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16870000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3290653" />
-      <window_info anchor="bottom" id="Python Console" weight="0.3290653" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007153" side_tool="true" weight="0.3290653" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.3290653" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I don't know what I'm doing" />
     <MESSAGE value="added create_poll function" />
     <MESSAGE value="now sending polls works" />
-    <option name="LAST_COMMIT_MESSAGE" value="now sending polls works" />
+    <MESSAGE value="Added function to retrieve posts with sinchrons schedule from VK" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added function to retrieve posts with sinchrons schedule from VK" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/bot.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="WindowStateProjectService">
+    <state x="453" y="281" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578002758363">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="453" y="281" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.873@0.23.1440.873" timestamp="1578002758363" />
+    <state x="472" y="225" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578002839659">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="472" y="225" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.873@0.23.1440.873" timestamp="1578002839659" />
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1578002871142">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1578002871142" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1578002871141">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1578002871141" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1578002871140">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1578002871140" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1578002871141">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1578002871141" />
+    <state x="413" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1577869070988">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="413" y="304" key="com.intellij.ide.util.TipDialog/0.23.1440.873@0.23.1440.873" timestamp="1577869070988" />
+    <state x="399" y="220" width="670" height="676" key="search.everywhere.popup" timestamp="1577869091557">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="399" y="220" width="670" height="676" key="search.everywhere.popup/0.23.1440.873@0.23.1440.873" timestamp="1577869091557" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sinchroManager$bot.coverage" NAME="bot Coverage Results" MODIFIED="1563701280898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="88" selection-start-line="2" selection-start-column="88" selection-end-line="2" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="71" column="66" lean-forward="true" selection-start-line="71" selection-start-column="66" selection-end-line="71" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parseVK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <SUITE FILE_PATH="coverage/sinchroManager$bot.coverage" NAME="bot Coverage Results" MODIFIED="1578002871131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
