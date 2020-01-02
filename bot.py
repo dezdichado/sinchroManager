@@ -1,11 +1,9 @@
-import datetime
 import time
 import parseVK
 import api
 import config
 
 
-timeToSend = datetime.datetime.fromtimestamp(float(open('timeToSend').read()))
 while True:
     post_id = parseVK.get_latest_post()["id"]
     latestPosted = int(open('latestPosted').read())
