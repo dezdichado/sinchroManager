@@ -4,7 +4,6 @@ import api
 import config
 
 
-
 while True:
     post_id = parseVK.get_latest_post()["id"]
     f = open('latestPosted')

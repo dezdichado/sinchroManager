@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="281325e9-838a-46ec-bb67-890b00041d7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +108,7 @@
       <workItem from="1573570704837" duration="2325000" />
       <workItem from="1577868924929" duration="15801000" />
       <workItem from="1578075588024" duration="146000" />
+      <workItem from="1578075740704" duration="1467000" />
     </task>
     <task id="LOCAL-00001" summary="I don't know what I'm doing">
       <created>1563638763238</created>
@@ -200,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578008616810</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Not sending message on every start.&#10;Configs now load from local secret file if not in environment.">
+      <created>1578075865194</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578075865194</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +240,8 @@
     <MESSAGE value="fixed bug in parseVK.py" />
     <MESSAGE value="made configs work" />
     <MESSAGE value="Now tagging everyone when announcing sinchs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Now tagging everyone when announcing sinchs." />
+    <MESSAGE value="Not sending message on every start.&#10;Configs now load from local secret file if not in environment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Not sending message on every start.&#10;Configs now load from local secret file if not in environment." />
   </component>
   <component name="WindowStateProjectService">
     <state x="453" y="281" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578005883096">
@@ -243,10 +252,10 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="472" y="225" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.873@0.23.1440.873" timestamp="1578002839659" />
-    <state x="306" y="74" key="CommitChangelistDialog2" timestamp="1578008616631">
+    <state x="306" y="74" key="CommitChangelistDialog2" timestamp="1578075864805">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="306" y="74" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1578008616631" />
+    <state x="306" y="74" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1578075864805" />
     <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1578005920289">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
@@ -263,6 +272,10 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1578005920288" />
+    <state x="311" y="179" key="Vcs.Push.Dialog.v2" timestamp="1578075876699">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="311" y="179" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1578075876699" />
     <state x="413" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1577869070988">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
