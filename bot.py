@@ -4,7 +4,6 @@ import api
 import config
 
 
-api.send_message("Я завёлся")
 
 while True:
     post_id = parseVK.get_latest_post()["id"]
